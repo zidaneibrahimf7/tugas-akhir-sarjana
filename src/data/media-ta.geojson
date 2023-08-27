@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "name": "media-ta",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "759f042e-242c-4d42-80c4-530c8bdc7f35",
+        "Name": "Jembatan Merah",
+        "Lon": 106.78735277777777,
+        "Lat": -6.5955194444444443,
+        "Altitude": 244.59586776859504,
+        "Azimuth": 202.05368035786904,
+        "Images": "../assets/Jembatan-Merah.jpg",
+        "Videos": "../datavid/Jembatan-Merah-Vid.mp4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78735277777777,
+          -6.595519444444444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "644db3a3-d3c4-4bf4-baf5-8c027193ec66",
+        "Name": "Alun-Alun Kota Bogor",
+        "Lon": 106.79296944444444,
+        "Lat": -6.5964944444444438,
+        "Altitude": 246.19451907576573,
+        "Azimuth": 64.580146774816527,
+        "Images": "../assets/Bogor-Kota.jpg",
+        "Videos": "../datavid/Alun-Alun-vid.mp4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.792969444444438,
+          -6.596494444444444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "065d1c69-2583-4415-b9ea-a9c9cd94b14f",
+        "Name": "Home",
+        "Lon": 106.73003333333334,
+        "Lat": -6.5639222222222218,
+        "Altitude": 177.54117647058823,
+        "Azimuth": 4.8351325979816941,
+        "Images": "../assets/Home.jpg",
+        "Videos": ".."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.730033333333338,
+          -6.563922222222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "222f6b2b-bf55-440b-a9f5-7781c7dd1402",
+        "Name": "Bogor Kota",
+        "Lon": 106.79691388888888,
+        "Lat": -6.5865944444444438,
+        "Altitude": 239.15601300108344,
+        "Azimuth": 328.10214250124562,
+        "Images": "../assets/Denpom.jpg",
+        "Videos": "../datavid/Bogor-Kota.mp4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.796913888888881,
+          -6.586594444444444
+        ]
+      }
+    }
+  ]
+}
