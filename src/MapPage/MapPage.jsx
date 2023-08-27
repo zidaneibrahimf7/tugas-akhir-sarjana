@@ -40,7 +40,7 @@ const MapPage = () => {
 
   // Fetch location details using Google Maps API
   const handleSearch = () => {
-    const apiKey = 'AIzaSyAtxZiCKnyCLXg7I1I0fKFUZHbWpX9k0W0';
+    const apiKey = 'ENTER_YOUR_API_KEY';
     const geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${searchQuery}&key=${apiKey}`;
 
     axios
@@ -73,7 +73,7 @@ const MapPage = () => {
   function handleMouseOver(e) {
     const { lat, lng } = e.latlng;
 
-    fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=AIzaSyAtxZiCKnyCLXg7I1I0fKFUZHbWpX9k0W0`)
+    fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=ENTER_YOUR_API_KEY`)
       .then(response => response.json())
       .then(data => {
         const address = data.results[0].formatted_address;
@@ -239,6 +239,3 @@ const MapPage = () => {
 }
 
 export default MapPage;
-
-
-// AIzaSyAtxZiCKnyCLXg7I1I0fKFUZHbWpX9k0W0
